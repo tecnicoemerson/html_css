@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav > a{
+           text-decoration: none;
+           color: rgb(255, 255, 255);
+           font-weight: bold;
+           margin-right: 30px;
+        }
+        nav :hover{
+            text-decoration: underline;
+        }
+        
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.438);
+        }
+        article > aside{
+            background-color: rgb(146, 143, 143);
+            padding: 2px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+<nav>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+</nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero totam velit minus maxime saepe deserunt mollitia, magni explicabo ratione ut optio, labore, similique perferendis aliquid error fugiat provident modi nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eligendi aliquid repellat excepturi, magnam quaerat doloremque quisquam aut voluptatum? Eaque expedita dolorum placeat quae, sapiente exercitationem nemo quis voluptatum hic.</p>
+                <aside>
+                    <p>Escrito por Cria Sakurai</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>desenvolvendo</p>
+    </footer>
+</body>
+</html>
