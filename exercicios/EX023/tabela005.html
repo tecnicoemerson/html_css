@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio de tabelas</title>
+    <style>
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid gray;
+            padding: 8px;
+        }
+        .destaque{
+            background-color: aquamarine;
+        }
+        col.cnome{
+            background-color: rgb(193, 236, 184);
+        }
+        .darkgray{
+            background-color: darkgray;
+        }
+        }
+    </style>
+</head>
+<body>
+    <h1>exercicio de tabelas</h1>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="darkgray" span="2">
+        <col class="cprofissão">
+    </colgroup>
+        <caption>cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>jornalista</td>
+            </tr>
+
+            <tr class="destaque">
+                <td>Everton</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Bancario</td>
+            </tr>
+
+            <tr>
+                <td>Viviane</td>
+                <td>F</td>
+                <td>34</td>
+                <td>Telefonista</td>
+            </tr>
+
+            <tr class="destaque">
+                <td>Emerson</td>
+                <td>M</td>
+                <td>16</td>
+                <td>Tecnico</td>
+            </tr>
+
+            <tr>
+                <td>Helena</td>
+                <td>F</td>
+                <td>40</td>
+                <td>Medica</td>
+            </tr>
+
+
+            <tr>
+                <td>Ednaldo</td>
+                <td>M</td>
+                <td>37</td>
+                <td>Caminhoneiro</td>
+            </tr>
+ 
+    </table>
+</body>
+</html>
